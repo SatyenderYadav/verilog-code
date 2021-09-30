@@ -1,0 +1,20 @@
+module nand_to_not(a,y);
+input a;
+output y;
+nand_g n1(a,a,y);
+endmodule
+
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////TEST BENCH//////////////////////////////////////////
+module nand_to_not_tb();
+reg a;
+wire y;
+nand_to_not not_nand(a,y);
+initial
+	begin
+		a=0;
+#5		a=1;
+#5
+$stop;
+end
+endmodule

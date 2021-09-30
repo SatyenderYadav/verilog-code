@@ -1,0 +1,19 @@
+module not_g(a,y);
+input a;
+output y;
+assign y = ~a;
+endmodule
+//////////////////////////////////////////////////////////////////////////////
+////////////////////////////TEST BENCH///////////////////////////////////////
+module not_gtb();
+reg a;
+wire y;
+not_g not_g1(a,y);
+initial
+	begin
+		a=0;
+#10	a=1;
+#10
+$stop;
+end	
+endmodule

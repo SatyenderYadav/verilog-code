@@ -1,0 +1,21 @@
+module and_g(a,b,y);
+input a,b;
+output y;
+assign y = a & b;
+endmodule
+//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////TEST BENCH/////////////////////////////////////////////
+module and_gtb();
+reg a,b;
+wire y;
+and_g and1(a,b,y);
+initial
+	begin
+		a=0;b=0;
+#10	a=0;b=1;
+#10	a=1;b=0;
+#10	a=1;b=1;
+#10
+$stop;
+end
+endmodule
