@@ -246,3 +246,30 @@
 	Image Credit : 
 		[Elprocus](https://www.elprocus.com)
 
+
+- 1 Bit Magnitude Comparator
+
+	- Truth Table
+
+	![Truth Table](img/comp_1bit.png)
+
+	- Circuit Diagram
+	
+	![Circuit Diagram](img/comp_1bit_cir.png)
+
+	Image Credit : 
+		[Elprocus](https://www.elprocus.com) & [GeeksforGeeks](https://www.geeksforgeeks.org/)
+
+
+- Even Parity Generator
+
+	- Truth Table
+
+	![Truth Table](img/Even-Parity-Generator-Truth-Table.jpg)
+
+	- Circuit Diagram
+	
+	![Circuit Diagram](img/even-parity-logic-circuit.png)
+
+	Image Credit : 
+		[Elprocus](https://www.elprocus.com)
