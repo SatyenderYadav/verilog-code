@@ -58,6 +58,10 @@
 
 - [4:1 Mux via Gate Flow](code/mux41_gate_flow.v)
 
+- [4:1 Mux Conditional Operator](code/mux41_cond.v)
+
+- [2:1 Mux Conditional Operator](code/mux21_cond.v)
+
 - [Binary To Graycode Converter](code/binary_to_graycode_vector.v)
 
 - [Graycode to Binary Converter](code/graycode_to_binary_4bit.v)
@@ -70,11 +74,19 @@
 
 - [Multiplier 2x2 using Half Adder](code/multiplier2x2.v)
 
-- [4 bit RIPPLE Carry Adder](code/ripple_counter_4bit.v)
+- [4 bit Ripple Carry Adder](code/ripple_carry_adder_4bit.v)
 
 - [4 bit Adder Cum Subtractor](code/adder_cum_sub_4bit.v)
 
 - [4 bit Adder Cum Subtractor Using Full Adder](code/adder_cum_sub_4bit_fh.v)
+
+- [3 bit Even Parity Generator](code/even_parity_3bit.v)
+
+- [6 bit Even Parity Generator](code/even_parity_6bit.v)
+
+- [6 bit Odd Parity Generator](code/odd_parity_6bit.v)
+
+- [1 bit Magnitude Comparator](code/mag_comp_1bit.v)
 
 - [Expression-1 : (ac((~a)b)+ab(~c)) ](code/expression-1.v)
 
@@ -82,6 +94,7 @@
 
 - [Expression-3 : a(~b) + ab(~c) + (~b)c ( using 3:8 Decoder)](code/exp_using_decoder38.v)
 
+- [Expression-4 : πm (1,3,5) +d(0,4) using gate level](code/expression-4.v)
 
 ## Truth Table Circuit Diagrams
 
