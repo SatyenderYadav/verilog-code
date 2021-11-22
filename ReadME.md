@@ -88,6 +88,26 @@
 
 - [1 bit Magnitude Comparator](code/mag_comp_1bit.v)
 
+- [JK Flip Flop](code/jkff.v)
+
+- [SR Flip Flop](code/srff.v)
+
+- [T Flip Flop](code/tff.v)
+
+- [D Flip Flop](code/dff.v)
+
+- [ALU](code/alu.v)
+
+- [Mealy Machine - output:1100](code/mealy_1100.v)
+
+- [Mealy Machine - output:101](code/mealy_101.v)
+
+- [Moore Machine - output:101](code/moore_101.v)
+
+- [For Loop -1](code/forloop_1.v)
+
+- [For Loop -2](code/forloop_2.v)
+
 - [Expression-1 : (ac((~a)b)+ab(~c)) ](code/expression-1.v)
 
 - [Expression-2 : (~a)(~b) + abc + (~a)b(~c)](code/expression-2.v)
@@ -273,3 +293,37 @@
 
 	Image Credit : 
 		[Elprocus](https://www.elprocus.com)
+
+
+- JK Flip Flop
+
+	![Truth Table & Circuit](img/J-K-flip-flop-diagram.jpg)
+
+	Image Credit : 
+		[All About Circuits](https://www.allaboutcircuits.com/)
+
+
+- SR Flip Flop
+
+	![Truth Table & Circuit](img/sr.png)
+
+	Image Credit : 
+		[Expertsmind](http://www.expertsmind.com/)
+
+
+- D Flip Flop
+
+	![Truth Table & Circuit](img/d-flipflop.jpeg)
+
+	Image Credit : 
+		[Quora](https://www.quora.com/)
+
+
+- T Flip Flop
+
+	![Truth Table & Circuit](img/T-Flip-Flop-Circuit-using-74HC74-Truth-Table.png)
+
+	![Truth Table & Circuit](img/Standard-synchronous-Flip-Flops-a-T-Flip-Flop-b-JK-Flip-Flop.png)
+
+	Image Credit : 
+		[Circuits-diy](https://circuits-diy.com/) & [Research Gate](https://www.researchgate.net)
