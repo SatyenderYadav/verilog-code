@@ -1,4 +1,4 @@
-nmodule ripple_carry_adder_4bit(a,b,cin,sum,cout);
+module ripple_carry_adder_4bit(a,b,cin,sum,cout);
 wire [2:0] w1;
 input [3:0] a,b;
 input cin;

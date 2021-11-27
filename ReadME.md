@@ -88,6 +88,8 @@
 
 - [1 bit Magnitude Comparator](code/mag_comp_1bit.v)
 
+- [4 bit Magnitude Comparator](code/magnitude_comp_4bit.v)
+
 - [JK Flip Flop](code/jkff.v)
 
 - [SR Flip Flop](code/srff.v)
@@ -115,6 +117,8 @@
 - [Expression-3 : a(~b) + ab(~c) + (~b)c ( using 3:8 Decoder)](code/exp_using_decoder38.v)
 
 - [Expression-4 : πm (1,3,5) +d(0,4) using gate level](code/expression-4.v)
+
+- [Expression-5 : Y(a,b,c) = (a.b+c)' using 4:1 Mux](code/expression-5.v)
 
 ## Truth Table Circuit Diagrams
 
