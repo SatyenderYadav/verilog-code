@@ -110,6 +110,14 @@
 
 - [For Loop -2](code/forloop_2.v)
 
+- [4 bit Up Counter](code/up_counter_design.v)
+
+- [4 bit Down Counter](code/counter_design_down.v)
+
+- [CMOS: Inverter](code/cmos_inverter.v)
+
+- [CMOS: NAND](code/cmos_nand.v)
+
 - [Expression-1 : (ac((~a)b)+ab(~c)) ](code/expression-1.v)
 
 - [Expression-2 : (~a)(~b) + abc + (~a)b(~c)](code/expression-2.v)
@@ -119,6 +127,8 @@
 - [Expression-4 : πm (1,3,5) +d(0,4) using gate level](code/expression-4.v)
 
 - [Expression-5 : Y(a,b,c) = (a.b+c)' using 4:1 Mux](code/expression-5.v)
+
+- [Expression-6 : Y(a,b,c) = (~a).(b+c) + ((~a).(~b)) using CMOS](code/cmos_for_exp.v)
 
 ## Truth Table Circuit Diagrams
 
